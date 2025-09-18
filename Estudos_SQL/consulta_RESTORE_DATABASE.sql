@@ -1,0 +1,2 @@
+-- RECUPERAÇÃO DO DB - A PARTIR DO BACKUP
+RESTORE DATABASE Testando FROM DISK = 'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\Backup\Testando.bak'

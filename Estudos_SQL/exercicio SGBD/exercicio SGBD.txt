@@ -1,0 +1,40 @@
+exercicio criação de database e tabelas relacionadas
+
+- criar um DB chamado Filmes
+
+- criar uma table para definir os campos que armazenarão dados sobre os filmes
+ exemplo: id, nome, elenco principal, diretor, roteirista, data de lançamento (colunas)
+
+- criar outra table para armazenar dados sobre a produtora do filme
+	exemplo: id, nome da produtora, orçamento do filme, nome dos produtores (colunas)
+
+trabalhar com o relacionamento entre essas duas tabelas - uma será a tabela principal
+e a outra será a tabela dependente (relação pai-filho entre tables)
+
+- inserir dados nas tables seguindo os respectivos campos que os armazenarão
+
+- consultar os dados de cada table (todos os dados)
+
+
+===================================================================================================
+
+- criar uma terceira tabela que armazenará um conjunto de dados referente ao numero de pessoas - pelo mundo - que assistiu os filmes (Brasil, Argentina, EUA, Canada, Reino Unido, França, Espanha)
+- também armazenar os dados de faturamento de bilheteria destes mesmos filmes.
+
+*********************************************************************************************
+
+O PRÓXIMO PASSO É NORMALIZAR AS 3 TABELAS E - DE FORMA SIMPLES E DIRETA - RELACIONAR AS 3.
+
+NA SEQUENCIA, PRATICAR ALGUNS JOINS COM AS TABLES: INNER JOIN, INNER JOIN WHERE, LEFT JOIN E RIGHT JOIN 
+
+
+
+
+
+
+
+
+
+
+
+

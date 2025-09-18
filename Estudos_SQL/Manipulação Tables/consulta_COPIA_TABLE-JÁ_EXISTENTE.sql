@@ -1,0 +1,2 @@
+-- CRIAR UMA NOVA TABLE A PARTIR DE UMA JÁ EXISTENTE
+SELECT TesteA_ID,TesteA_Nome,TesteA_Sobrenome INTO Teste_A_Clone FROM TesteA
