@@ -29,5 +29,40 @@ TO user1;
 // O user1 pode ler, inserir e modificar os dados da tabela produto
   ```
 
+DML - Linguagem de Manipulação de dados
+* SELECT:Ler linhas de uma tabela
+* INSERT:Inserir novas linhas em uma tabela
+* UPDATE:Modificar dados em linhas existentes
+* DELETE:Excluir linhas existentes
+```
+SELECT *
+FROM Customer
+WHERE City = 'Seattle';
 
+// Selecione tudo na tabela de customer  onde a cidade é Seatle
+  ```
+```
+SELECT FirstName, LastName, Address, City
+FROM Customer
+WHERE City = 'Seattle';
 
+// Selecione o primeiro nome, o último nome, endereço e cidade, na tabela de customer onde a cidade é Seatle
+  ```
+```
+SELECT FirstName, LastName, Address, City
+FROM Customer
+WHERE City = 'Seattle'
+ORDER BY LastName;
+
+// Selecione o primeiro nome, o último nome, endereço e cidade, na tabela de customer onde a cidade é Seatle
+// Ordene pelo último nome
+  ```
+```
+SELECT o.OrderNo, o.OrderDate, c.Address, c.City
+FROM Order AS o
+JOIN Customer AS c
+ON o.Customer = c.ID
+
+// Selecione o nº da ordem, a data, o endereço e a cidade da tabela Order,
+// Junte com o cliente, da tabela Customer, pelo ID do cliente
+  ```
