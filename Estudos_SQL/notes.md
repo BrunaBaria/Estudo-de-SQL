@@ -11,9 +11,11 @@ CREATE TABLE Product
     Price DECIMAL NULL
 );
 
--- Criando uma tabela de Produtos, com as colunas ID, Name e Price
+-- Criando uma tabela de Produtos,
+-- Com as colunas ID, Name e Price
 -- O ID será um inteiro e será a chave primária
--- O Name será um varchar de tamanho 20 caracterres e não pode ser nulo
+-- O Name será um varchar
+-- de tamanho 20 caracterres e não pode ser nulo
 -- o Preço é do tipo decimal e pode ser nulo 
   ```
 ```
