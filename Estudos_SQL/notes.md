@@ -106,7 +106,8 @@ WHERE ID = 1;
 
 --  Atualize a tabela Customer, insira na coluna Address '123 High St.', onde o ID é 1
 --  Não Faça UPDATE sem WHERE.
--- Se você omitir a cláusula WHERE , uma instrução UPDATE modificará todas as linhas da tabela.
+-- Se você omitir a cláusula WHERE,
+-- uma instrução UPDATE modificará todas as linhas da tabela.
   ```
 ```
 DELETE FROM Product
@@ -114,7 +115,8 @@ WHERE ID = 162;
 
 --  Na tabela Product, delete o ID 162;
 --  Não Faça DELETE sem WHERE.
---  Se você omitir a cláusula WHERE , uma instrução DELETE removerá todas as linhas da tabela.
+--  Se você omitir a cláusula WHERE,
+-- uma instrução DELETE removerá todas as linhas da tabela.
   ```
 ```
 INSERT INTO Product(ID, Name, Price)
