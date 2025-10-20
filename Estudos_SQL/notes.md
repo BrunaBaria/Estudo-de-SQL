@@ -28,6 +28,20 @@ TO user1;
 
 // O user1 pode ler, inserir e modificar os dados da tabela produto
   ```
+```
+-- Negando o acesso mesmo com o GRANT anterior:
+DENY SELECT, INSERT, UPDATE
+ON Product
+TO user1;
+
+  ```
+```
+-- Agora removendo essas permissões:
+REVOKE SELECT, INSERT, UPDATE
+ON Product
+FROM user1;
+
+  ```
 
 DML - Linguagem de Manipulação de dados
 * SELECT:Ler linhas de uma tabela
@@ -46,7 +60,8 @@ SELECT FirstName, LastName, Address, City
 FROM Customer
 WHERE City = 'Seattle';
 
-// Selecione o primeiro nome, o último nome, endereço e cidade, na tabela de customer onde a cidade é Seatle
+// Selecione o primeiro nome, o último nome, endereço e cidade,
+// na tabela de customer onde a cidade é Seatle
   ```
 ```
 SELECT FirstName, LastName, Address, City
@@ -54,7 +69,8 @@ FROM Customer
 WHERE City = 'Seattle'
 ORDER BY LastName;
 
-// Selecione o primeiro nome, o último nome, endereço e cidade, na tabela de customer onde a cidade é Seatle
+// Selecione o primeiro nome, o último nome, endereço e cidade,
+// na tabela de customer onde a cidade é Seatle
 // Ordene pelo último nome
   ```
 ```
