@@ -16,7 +16,19 @@ CREATE TABLE Product
 -- O Name será um varchar de tamanho 20 caracterres e não pode ser nulo
 -- o Preço é do tipo decimal e pode ser nulo 
   ```
+```
+CREATE TABLE Product
+(
+    ID INT PRIMARY KEY,
+    Name VARCHAR(20) NOT NULL,
+    Price DECIMAL NULL
+);
 
+-- Criando uma tabela de Produtos, com as colunas ID, Name e Price
+-- O ID será um inteiro e será a chave primária
+-- O Name será um varchar de tamanho 20 caracterres e não pode ser nulo
+-- o Preço é do tipo decimal e pode ser nulo 
+  ```
 ## DCL - Linguagem de Controle de Dados
 * GRANT: Conceder permissão para executar ações específicas
 * DENY: Negar permissão para executar ações específicas
@@ -43,7 +55,7 @@ FROM user1;
 
   ```
 
-DML - Linguagem de Manipulação de dados
+## DML - Linguagem de Manipulação de dados
 * SELECT:Ler linhas de uma tabela
 * INSERT:Inserir novas linhas em uma tabela
 * UPDATE:Modificar dados em linhas existentes
